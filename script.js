@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*    script.js                                         :::      ::::::::    */
+/*                                                      :+:      :+:    :+:  */
+/*    By: Claude (LTS)                                  #+#  +:+       +#+    */
+/*                                                    +#+#+#+#+#+   +#+       */
+/*    Created: 2026/03/26 10:44 by Claude (LTS)       #+#    #+#         */
+/*    Updated: 2026/03/26 10:44 by Claude (LTS)       ###   ########      */
+/*                                                                            */
+/*    © Life Time Support Inc.                                           */
+/*                                                                            */
+/* ************************************************************************** */
 // Hamburger Menu Toggle
 const hamburger = document.getElementById('hamburger');
 const nav = document.getElementById('nav');
