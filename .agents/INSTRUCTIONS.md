@@ -25,8 +25,9 @@
 `scripts` は一つの組織。知識の正本は中央図書館 `lts-knowledge/library/` に集約する。
 
 - **情報を探すときは、まず図書館の蔵書目録 `lts-knowledge/library/catalog.generated.md` を検索する。**
-- **調べた／作った再利用価値のある知識は、まず図書館に正本登録してから使う。** 各プロジェクトにはコピーを残さず「参照元パス＋取得日」を記録し、図書館を正本として呼び出す。
-- 棚: `research/`(調査) `trainings/`(研修) `products-services/`(商品・サービス・価格)。
+- **再利用価値のある知識を新しく作る／調べるときは、最初から図書館の棚の中に作る。** ディープリサーチ・市場調査・研修ナレッジ・商品/価格情報などは、プロジェクト側で書いてから後で移すのではなく、`lts-knowledge/library/<棚>/` に直接 frontmatter 付きで作成し、`build-catalog.mjs` で目録に載せる。
+- プロジェクト側の成果物には完全コピーを残さず「図書館の参照元パス＋取得日(commit)」だけを記録し、図書館を正本として呼び出す。
+- 棚: `research/`(調査) `trainings/`(研修) `products-services/`(商品・価格) `company/` `sales/` `management/` `operations/` `web-marketing/` `subsidy-grants/` `client-research/`。
 - 登録手順は `lts-knowledge/library/_meta/how-to-contribute.md`、規約は `_meta/schema.md`。
-- 秘密情報・個人情報(restricted)は図書館に置かない。生メールは要約・匿名化のみ。
+- 秘密情報・個人情報・クレデンシャル(restricted)は図書館に置かない。生メールは要約・匿名化のみ。
 <!-- LIBRARY:end -->
